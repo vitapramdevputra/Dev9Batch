@@ -4,6 +4,7 @@ public with sharing class AccountQueueableExample implements Queueable {
         this.accList = accList;
     }
 
+    //execute is mandatory method in queueable.
     public void execute(QueueableContext qc){
         List<account> updateAcc = new list<account>();
         for (account acc : accList) {
