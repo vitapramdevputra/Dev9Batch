@@ -1,0 +1,3 @@
+Select id, name, phone from account
+select id, Name, Project_Name__c, status__c from Salesforce_Project__c
+select id, name, mailingcity from contact where mailingcity = 'Paris'
