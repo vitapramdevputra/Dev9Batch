@@ -1,0 +1,15 @@
+Requirements:
+
+Turn AccountTrigger On and Off in Production
+Turn ContactTrigger On and Off in production
+
+
+
+Solution
+
+
+Create new custom setting
+Name: TriggerSwitch, Type = List.
+Field: checkbox
+
+Records for account and contact trigger.
